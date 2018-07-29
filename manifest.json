@@ -1,0 +1,51 @@
+﻿{
+	"$schema": "http://json.schemastore.org/webextension",
+
+	"background": {
+		"scripts": [ "background/background.js" ]
+	},
+
+	"default_locale": "en",
+
+	"description": "__MSG_extensionDescription__",
+
+	"developer": {
+		"name": "Your name / あなたの名前",
+		"url": "https://The_url_of_your_site_あなたのサイトのurl"
+	},
+
+	"icons": {
+		"48": "icons/icon-48.png",
+		"96": "icons/icon-96.png",
+		"192": "icons/icon-192.png",
+		"384": "icons/icon-384.png",
+		"768": "icons/icon-768.png",
+		"1536": "icons/icon-1536.png"
+	},
+
+	"manifest_version": 2,
+
+	"name": "__MSG_extensionName__",
+
+	"options_ui": {
+		"page": "options/options.html",
+		"browser_style": true
+	},
+
+	"permissions": [ "contextMenus", "storage" ],
+
+	"sidebar_action": {
+		"browser_style": true,
+		"default_icon": {
+			"48": "icons/icon-48.png",
+			"96": "icons/icon-96.png",
+			"192": "icons/icon-192.png",
+			"384": "icons/icon-384.png",
+			"768": "icons/icon-768.png",
+			"1536": "icons/icon-1536.png"
+		},
+		"default_panel": "sidebar/sidebar.html"
+	},
+
+	"version": "1.0"
+}
