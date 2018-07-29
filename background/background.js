@@ -1,0 +1,4 @@
+﻿/*
+ * License / ライセンス
+ */
+'use strict';

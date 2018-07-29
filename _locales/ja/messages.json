@@ -1,0 +1,15 @@
+﻿{
+	"Message": {
+		"message": "Messageの日本語をここに書く。"
+	},
+
+	"extensionDescription": {
+		"message": "表示する拡張機能の説明を日本語でここに書く。",
+		"description": "拡張機能説明。"
+	},
+
+	"extensionName": {
+		"message": "表示する拡張機能の名前を日本語でここに書く。",
+		"description": "拡張機能名。"
+	}
+}

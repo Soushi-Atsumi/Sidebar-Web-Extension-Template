@@ -1,0 +1,15 @@
+﻿{
+	"Message": {
+		"message": "Write english Message here."
+	},
+
+	"extensionDescription": {
+		"message": "Write the description of this extension which will show in English here.",
+		"description": "Description of the extension."
+	},
+
+	"extensionName": {
+		"message": "Write the name of this extension which will show in English here.",
+		"description": "Name of the extension."
+	}
+}
